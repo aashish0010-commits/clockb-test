@@ -1,6 +1,7 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { FreeMode, Navigation, Pagination } from "swiper/modules"; // Import the Navigation module
+import { FreeMode, Navigation, Pagination } from "swiper/modules";
+import 'swiper/swiper-bundle.css';
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/navigation"; 
@@ -12,6 +13,7 @@ import { brands } from "../Data/data";
 import { handPicksData } from "../Data/data";
 import { hotCakes } from "../Data/data";
 import { creamCakesData } from "../Data/data";
+
 
 const Categories = () => {
     return (
